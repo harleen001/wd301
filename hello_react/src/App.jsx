@@ -1,5 +1,6 @@
 
 import TaskCard from "./TaskCard";
+import Navbar from "./Navbar";
 
 function App() {
   
@@ -9,6 +10,12 @@ const numbers = [1,2,4,5]  */ }
    <>
  {/* <h1>Hello {name}</h1>
   <h2>these are numbers {numbers}</h2> */}
+  <div>
+    <Navbar navname="home"/>
+    <Navbar navname="about"/>
+    <Navbar navname="section"/>
+    <Navbar navname="contact"/>
+  </div>
 <div>
   <div> <h1>Pending</h1>
   <TaskCard title="Title for 1st Card" card="abc" />
