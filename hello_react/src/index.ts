@@ -50,3 +50,13 @@ let userName = "Jane";  // type: string
 let userID = 10;  // type: number
 let uniqueID = userName + userID;
 console.log(uniqueID);
+//ARRAYS CAN SPECIFICALLY HOLD ONLY ONE TYPE OF DATA
+let projectID: number[] = [1, 2, 3, 4, 5];
+let taskList: string[] = ["Fix Camera", "Buy Milk"];
+console.log(projectID[0]);
+console.log(taskList[1]);
+
+//tuple
+let user: [string, string] = ["johnDoe", "mySecretPassword"];
+//destructuring-extracting data from tuple, to extract the username and password from the user tuple, you can use the following code:
+let [username, password] = user;
