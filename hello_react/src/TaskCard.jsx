@@ -3,7 +3,7 @@ const TaskCard = (props) =>{
   console.log(props);
 
     return(
-      <div>
+      <div className="text-xl font-bold">
       <h2>{props.title}</h2>
       <p>{props.card}</p>
       <p>Assignee: Harleen Singh</p>
