@@ -1,10 +1,10 @@
 import './App.css'
-import Task from './Task'
+import Tasklist from './Tasklist'
 
 function App() {
   return (
     <div className="App">
-      <Task title='pay rent'/>
+      <Tasklist/>
     </div>
   );
 }
